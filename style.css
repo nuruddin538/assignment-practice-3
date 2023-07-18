@@ -185,3 +185,20 @@ span.num {
   float: right;
   padding-right: 2rem;
 }
+/* features section styles here */
+.features-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.features-content h2 {
+  color: #0a0826;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.features-content p {
+  color: #6c6c6c;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
