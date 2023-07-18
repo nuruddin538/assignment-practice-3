@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+  /* nav responsive */
+  nav .row {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  nav h3 {
+    margin-top: 3rem;
+  }
+  nav .col-right ul {
+    flex-direction: column;
+  }
+  nav .col-right ul li {
+    padding: 2rem 0;
+  }
+  nav .col-right ul li {
+    margin-right: 0;
+  }
+  /* influencer responsive */
+  .influencer-section .row {
+    flex-direction: column-reverse;
+    padding: 0 3rem;
+  }
+  .influencer-section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+  .influencer-section p {
+    font-size: 1.4rem;
+  }
+  .influencer-section .col-img img {
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /* nav responsive */
+  nav .row {
+    flex-direction: column;
+    padding: 5rem 0;
+  }
+  .influencer-section .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .influencer-section .col-img img {
+    margin-bottom: 5rem;
+  }
+  .influencer-section .col-content {
+    padding: 0 3rem;
+  }
+  .influencer-section h1 {
+    margin-bottom: 5rem;
+  }
+}
