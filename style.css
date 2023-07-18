@@ -40,7 +40,7 @@ h1 {
   margin: 0 auto;
 }
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 h2 {
   font-size: 3rem;
@@ -97,7 +97,7 @@ nav .col-right ul li a {
   font-size: var(--font-size);
 }
 /* influencer section styles here */
-.influencer-section .row {
+.influencer-section .influencer-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,4 +130,58 @@ nav .col-right ul li a {
 }
 .logo-icon ul li {
   text-align: center;
+}
+/* main/popular collection start here */
+.popular-collection h2 {
+  color: var(--secondary-color);
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.popular-collection .card-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.card-banner .card {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card-content h3 {
+  color: #18191f;
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+.card-content h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+span.num {
+  color: #5e6366;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.card-content p {
+  color: var(--gray-50, #787885);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 143%; /* 20.02px */
+  letter-spacing: 0.252px;
+}
+.popular-collection .btn {
+  background: none;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.popular-collection button {
+  float: right;
+  padding-right: 2rem;
 }
